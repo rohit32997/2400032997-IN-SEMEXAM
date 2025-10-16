@@ -1,0 +1,26 @@
+.sortable-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.sortable-table th,
+.sortable-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sortable-table thead {
+  background-color: #f2f2f2;
+}
+
+.sortable-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.sortable-table tr:hover {
+  background-color: #e0f7fa;
+}
